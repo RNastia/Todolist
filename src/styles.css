@@ -1,0 +1,30 @@
+body {
+    background-image: url("images/background.jpg");
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.tile {
+    margin-top: 100px;
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(58, 58, 58);
+    padding: 30px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid #921d6f;
+}
